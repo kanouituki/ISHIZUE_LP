@@ -1,0 +1,326 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.sp {
+  display: none;
+}
+
+h1 {
+  color: #ce131c;
+  display: inline;
+}
+
+h2 {
+  color: #ce131c;
+  display: inline;
+}
+
+.mainvisual {
+  height: 100svh;
+  position: relative;
+  margin-bottom: 12vw;
+  overflow: hidden;
+}
+
+.mainvisual_background {
+  position: absolute;
+  top: -21vw;
+  left: -14vw;
+  height: 96vw;
+}
+
+.mainvisual_copy {
+  position: absolute;
+  top: 4.5vw;
+  left: 7.2vw;
+  line-height: 10vw;
+  letter-spacing: 0.8vw;
+  font-weight: 800;
+  font-size: 7vw;
+}
+
+.mainvisual_logo {
+  position: absolute;
+  top: 31vw;
+  left: -0.6vw;
+  height: 30vw;
+}
+
+.mainvisual_puzzle {
+  position: absolute;
+  top: 20vw;
+  left: 50vw;
+  width: 52vw;
+}
+
+.features_maincopy {
+  font-size: 1.8rem;
+  font-weight: 800;
+  width: 80%;
+  margin: 9vw auto;
+  text-align: center;
+}
+.features_maincopy .big {
+  font-size: 3rem;
+}
+
+.features {
+  margin-bottom: 5rem;
+  text-align: center;
+  width: 100%;
+}
+.features .img_wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+.features .feature {
+  display: inline-block;
+  margin-bottom: 2rem;
+  width: 30.9%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.features .picture {
+  width: 90%;
+}
+.features .features_text {
+  text-align: left;
+  margin-left: 2vw;
+  width: 100%;
+}
+.features .features_text .title {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+  color: #ce131c;
+}
+.features .features_text .description {
+  font-size: 0.5rem;
+  letter-spacing: 1.5px;
+  line-height: 1rem;
+  font-weight: 600;
+}
+
+.example {
+  /* margin-bottom: 20vw;マージンはcommonのdot_boxへ */
+}
+.example .example_session {
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.example .img_wrapper {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+.example .img_wrapper .example_slide {
+  margin-left: 10%;
+  width: 80%;
+}
+.example .example_text {
+  display: inline-block;
+  vertical-align: top;
+  width: 25vw;
+  margin-left: 10vw;
+}
+.example .example_text .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 5vw;
+  margin-bottom: 0.4rem;
+  color: #ce131c;
+}
+.example .example_text .description {
+  font-size: 0.6rem;
+  line-height: 0.9rem;
+  font-weight: 500;
+  margin-left: 0;
+}
+.example .example_text .description em {
+  font-size: 0.4rem;
+  font-style: unset;
+  color: #717171;
+}
+.example .title_slide {
+  text-align: center;
+  margin-top: 10vw;
+}
+.example .title_slide .description {
+  font-size: 1.5rem;
+}
+
+.plan {
+  text-align: center;
+  margin-bottom: 20vw;
+}
+.plan .plan_title {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin-bottom: 6vw;
+}
+.plan .plan_wrapper {
+  text-align: left;
+  position: relative;
+}
+.plan .plan_background {
+  position: absolute;
+  top: 0rem;
+  left: 13%;
+  width: 74%;
+}
+.plan .plan_target {
+  position: relative;
+  padding-top: 5vw;
+  padding-left: 20vw;
+}
+.plan .plan_target .target {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 10vw;
+}
+.plan .plan_target .jhigh {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-right: 1.7vw;
+  color: #ce131c;
+}
+.plan .plan_target .elemen {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: #717171;
+}
+.plan .plan_time {
+  position: relative;
+  padding-top: 5vw;
+  padding-left: 20vw;
+}
+.plan .plan_time .time {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 12vw;
+  margin-right: 10vw;
+}
+.plan .plan_time .time_list {
+  display: inline-block;
+  margin-top: 7vw;
+  margin-bottom: 0vw;
+}
+.plan .plan_time .time_list .classweek {
+  display: block;
+  text-align: center;
+  margin-bottom: 4vw;
+  border-collapse: collapse;
+}
+.plan .plan_time .time_list .classweek th {
+  text-align: center;
+  border: solid 1px #bbbbbb;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.6rem;
+}
+.plan .plan_time .time_list .classweek td {
+  border: solid 1px #bbbbbb;
+  color: #ce131c;
+  font-size: 2.2rem;
+  font-weight: 800;
+  padding-bottom: 0rem;
+}
+.plan .plan_time .time_list .classweek td:first-child,
+.plan .plan_time .time_list .classweek th:first-child {
+  border-left: none;
+}
+.plan .plan_time .time_list .classweek tr:first-child td,
+.plan .plan_time .time_list .classweek tr:first-child th {
+  border-top: none;
+}
+.plan .plan_time .time_list .classweek td:last-child,
+.plan .plan_time .time_list .classweek th:last-child {
+  border-right: none;
+}
+.plan .plan_time .time_list .classweek tr:last-child td,
+.plan .plan_time .time_list .classweek tr:last-child th {
+  border-bottom: none;
+}
+.plan .plan_time .time_list .classtime {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.8vw;
+}
+.plan .plan_time .time_list .description {
+  font-size: 0.6rem;
+  color: #717171;
+}
+.plan .plan_time .price {
+  color: #ce131c;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-left: 2vw;
+}
+.plan .plan_time .price em {
+  font-style: unset;
+  font-size: 2.2rem;
+}
+
+footer {
+  position: relative;
+  height: 77.6vw;
+  overflow: hidden;
+}
+footer .footer_background {
+  position: absolute;
+  top: 0vw;
+  left: -22vw;
+  width: 145%;
+}
+footer .footer_logo {
+  position: absolute;
+  top: 18.7vw;
+  left: -1.8vw;
+  height: 36vw;
+}
+footer .fotter_copy {
+  position: absolute;
+  top: 53vw;
+  left: 7.4vw;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  font-weight: 800;
+  color: #ce131c;
+}
+footer .footer_company {
+  position: absolute;
+  top: 69.2vw;
+  left: 7.8vw;
+  font-size: 0.4rem;
+}
+
+.pc_sticker {
+  position: fixed;
+  top: 9vw;
+  right: -2.5vw;
+  width: 19.4vw;
+}
+
+.sticker_text {
+  position: fixed;
+  top: 13.4vw;
+  right: 4vw;
+  font-size: 1.7vw;
+  font-weight: 700;
+  color: #ffffff;
+}/*# sourceMappingURL=pc_style.css.map */

@@ -1,0 +1,801 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(sns_icon.css);
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* スマホ用のCSSはメディアクエリの外に記述する */
+.pc {
+  display: none;
+}
+
+.sp {
+  display: block;
+}
+
+h1 {
+  color: #ce131c;
+  display: inline;
+}
+
+h2 {
+  color: #ce131c;
+  display: inline;
+}
+
+.phone_wrapper {
+  width: 100%;
+}
+
+.mainvisual {
+  height: 100svh;
+  position: relative;
+  margin-bottom: 12vw;
+}
+
+.mainvisual_background {
+  position: absolute;
+  top: -17svh;
+  left: -12svh;
+  height: 120svh;
+}
+
+.mainvisual_copy {
+  position: absolute;
+  top: 4svh;
+  left: 2.2svh;
+  line-height: 7.5svh;
+  letter-spacing: 0.5svh;
+  font-weight: 700;
+  font-size: 6svh;
+}
+
+.mainvisual_logo {
+  position: absolute;
+  top: 51.5svh;
+  left: -4.6svh;
+  height: 30svh;
+}
+
+.mainvisual_sentence {
+  position: absolute;
+  top: 84.7svh;
+  left: 3svh;
+}
+.mainvisual_sentence .annai {
+  font-size: 2svh;
+  font-weight: 500;
+  margin-bottom: 0.8svh;
+}
+.mainvisual_sentence .eigo {
+  font-size: 1.1svh;
+  font-weight: 500;
+}
+
+.mainvisual_puzzle {
+  position: absolute;
+  top: 24svh;
+  left: 12svh;
+  width: 40svh;
+}
+
+.mainvisual_arrow {
+  position: absolute;
+  top: 91.6svh;
+  left: 3.3svh;
+  height: 2svh;
+}
+
+.features_maincopy {
+  font-size: 3svh;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 4rem;
+  letter-spacing: 0.2rem;
+}
+.features_maincopy .big {
+  font-size: 5svh;
+}
+
+.features {
+  margin-bottom: 10rem;
+}
+.features .img_wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.features .feature {
+  margin-bottom: 2rem;
+}
+.features .picture {
+  width: 90%;
+}
+.features .features_text {
+  margin-left: 4rem;
+}
+.features .features_text .title {
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #ce131c;
+}
+.features .features_text .description {
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+
+.example {
+  margin-bottom: 10rem;
+}
+.example .example_session {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+.example .img_wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.example .img_wrapper .example_slide {
+  margin-left: 10%;
+  width: 80%;
+}
+.example .example_text {
+  margin-left: 4.8rem;
+}
+.example .example_text .title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.example .example_text .description {
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  line-height: 2rem;
+  font-weight: 600;
+  margin-left: 1.4rem;
+}
+.example .example_text .description em {
+  font-size: 1rem;
+  font-style: unset;
+  color: #717171;
+}
+.example .title_slide {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-top: 3rem;
+  margin-left: 0;
+}
+
+.cooperation {
+  margin-bottom: 10rem;
+}
+.cooperation .title {
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #c0c1c0;
+  margin-bottom: 2rem;
+}
+.cooperation .media {
+  margin-bottom: 2rem;
+}
+.cooperation .media .media_texts {
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+.cooperation .media .media_texts .media_content_text {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.cooperation .media .media_images {
+  text-align: center;
+}
+.cooperation .media .media_images .media_content_image {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.cooperation .media .media_images .wealthparklab {
+  width: 26rem;
+  margin-right: -5rem;
+}
+.cooperation .media .media_images .u-29 {
+  width: 12rem;
+}
+.cooperation .collaboration {
+  text-align: center;
+}
+.cooperation .collaboration .media_content_image {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.cooperation .collaboration .dalton {
+  width: 23rem;
+  margin-right: 1rem;
+  margin-left: -2rem;
+}
+.cooperation .collaboration .gakucelerator {
+  width: 5rem;
+  margin-right: 2rem;
+}
+.cooperation .collaboration .showagakuin {
+  width: 3.8rem;
+}
+
+.plan {
+  text-align: center;
+  margin-bottom: 20vw;
+}
+.plan .plan_title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 10vw;
+}
+.plan .plan_wrapper {
+  text-align: left;
+  position: relative;
+}
+.plan .plan_background {
+  position: absolute;
+  top: 0rem;
+  left: 5%;
+  width: 90%;
+}
+.plan .plan_target {
+  position: relative;
+  padding-top: 5.8vw;
+  padding-left: 16vw;
+}
+.plan .plan_target .target {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-right: 6.4vw;
+}
+.plan .plan_target .jhigh {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-right: 0.4vw;
+  color: #ce131c;
+}
+.plan .plan_target .elemen {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #717171;
+}
+.plan .plan_time {
+  position: relative;
+  padding-top: 8vw;
+  padding-left: 16vw;
+}
+.plan .plan_time .time {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 12vw;
+  margin-right: 6.4vw;
+}
+.plan .plan_time .time_list {
+  display: inline-block;
+  margin-top: 3.2vw;
+  margin-bottom: 8vw;
+}
+.plan .plan_time .time_list .classweek {
+  display: block;
+  text-align: center;
+  margin-bottom: 4vw;
+  border-collapse: collapse;
+}
+.plan .plan_time .time_list .classweek th {
+  text-align: center;
+  border: solid 1px #bbbbbb;
+  font-size: 1.6rem;
+  padding: 0.6rem 0.6rem;
+}
+.plan .plan_time .time_list .classweek td {
+  border: solid 1px #bbbbbb;
+  color: #ce131c;
+  font-size: 2.2rem;
+  font-weight: 800;
+  padding-bottom: 0.2rem;
+}
+.plan .plan_time .time_list .classweek td:first-child,
+.plan .plan_time .time_list .classweek th:first-child {
+  border-left: none;
+}
+.plan .plan_time .time_list .classweek tr:first-child td,
+.plan .plan_time .time_list .classweek tr:first-child th {
+  border-top: none;
+}
+.plan .plan_time .time_list .classweek td:last-child,
+.plan .plan_time .time_list .classweek th:last-child {
+  border-right: none;
+}
+.plan .plan_time .time_list .classweek tr:last-child td,
+.plan .plan_time .time_list .classweek tr:last-child th {
+  border-bottom: none;
+}
+.plan .plan_time .time_list .classtime {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.8vw;
+}
+.plan .plan_time .time_list .description {
+  font-size: 0.6rem;
+  color: #717171;
+}
+.plan .plan_time .price {
+  color: #ce131c;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.plan .plan_time .price em {
+  font-style: unset;
+  font-size: 3rem;
+}
+
+footer {
+  position: relative;
+  height: 90vw;
+  overflow: hidden;
+}
+footer .footer_background {
+  position: absolute;
+  top: 0vw;
+  left: -20vw;
+  width: 150%;
+}
+footer .footer_logo {
+  position: absolute;
+  top: 26.2vw;
+  left: -0.6vw;
+  height: 32vw;
+}
+footer .fotter_copy {
+  position: absolute;
+  top: 53vw;
+  left: 7.4vw;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  font-weight: 700;
+  color: #ce131c;
+}
+footer .footer_company {
+  position: absolute;
+  top: 69.2vw;
+  left: 7.8vw;
+  font-size: 1rem;
+}
+
+.sticker {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 16vw;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 0.4vw;
+  padding-bottom: 0;
+}
+.sticker a {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(45% - 1.2vw - 1px);
+  height: 9.4vw;
+  margin-top: 1.6vw;
+  margin-left: 1.6vw;
+  margin-right: 1.6vw;
+  line-height: 4.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  color: #ffffff;
+  background-color: #dedede;
+}
+.sticker .tred {
+  background-color: #ce131c;
+}
+.sticker .progress_bar {
+  position: absolute;
+  left: 0;
+  bottom: 1.6vw;
+  border: 0.8vw solid #ce131c;
+  width: 0px;
+}
+
+/* @media screen and (min-width: 481px) {
+   481px以上に適用されるCSS（タブレット用） 
+} */
+@media screen and (min-width: 960px) {
+  .sp {
+    display: none;
+  }
+  .pc {
+    display: block;
+  }
+  h1 {
+    color: #ce131c;
+    display: inline;
+  }
+  h2 {
+    color: #ce131c;
+    display: inline;
+  }
+  .mainvisual {
+    height: 100svh;
+    position: relative;
+    margin-bottom: 12vw;
+    overflow: hidden;
+  }
+  .mainvisual_background {
+    position: absolute;
+    top: -21vw;
+    left: -14vw;
+    height: 96vw;
+  }
+  .mainvisual_copy {
+    position: absolute;
+    top: 4.5vw;
+    left: 7.2vw;
+    line-height: 10vw;
+    letter-spacing: 0.8vw;
+    font-weight: 800;
+    font-size: 7vw;
+  }
+  .mainvisual_logo {
+    position: absolute;
+    top: 31vw;
+    left: -0.6vw;
+    height: 30vw;
+  }
+  .mainvisual_puzzle {
+    position: absolute;
+    top: 20vw;
+    left: 50vw;
+    width: 52vw;
+  }
+  .features_maincopy {
+    font-size: 1.8rem;
+    font-weight: 800;
+    width: 80%;
+    margin: 9vw auto;
+    text-align: center;
+  }
+  .features_maincopy .big {
+    font-size: 3rem;
+  }
+  .features {
+    margin-bottom: 5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .features .img_wrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.6rem;
+  }
+  .features .feature {
+    display: inline-block;
+    margin-bottom: 2rem;
+    width: 30.9%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .features .picture {
+    width: 90%;
+  }
+  .features .features_text {
+    text-align: left;
+    margin-left: 2vw;
+    width: 100%;
+  }
+  .features .features_text .title {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 0.6rem;
+    color: #ce131c;
+  }
+  .features .features_text .description {
+    font-size: 0.5rem;
+    letter-spacing: 1.5px;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+  .example {
+    margin-bottom: 0;
+  }
+  .example .example_session {
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .example .img_wrapper {
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 0.6rem;
+  }
+  .example .img_wrapper .example_slide {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .example .example_text {
+    display: inline-block;
+    vertical-align: top;
+    width: 25vw;
+    margin-left: 10vw;
+  }
+  .example .example_text .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 5vw;
+    margin-bottom: 0.4rem;
+    color: #ce131c;
+  }
+  .example .example_text .description {
+    font-size: 0.6rem;
+    line-height: 0.9rem;
+    font-weight: 500;
+    margin-left: 0;
+  }
+  .example .example_text .description em {
+    font-size: 0.4rem;
+    font-style: unset;
+    color: #717171;
+  }
+  .example .title_slide {
+    text-align: center;
+    margin-top: 10vw;
+  }
+  .example .title_slide .description {
+    font-size: 1.5rem;
+  }
+  .cooperation {
+    margin-bottom: 10rem;
+  }
+  .cooperation .title {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #c0c1c0;
+    margin-bottom: 2rem;
+  }
+  .cooperation .media {
+    margin-bottom: 2rem;
+  }
+  .cooperation .media .media_texts {
+    text-align: center;
+  }
+  .cooperation .media .media_texts .media_content_text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-left: 1rem;
+  }
+  .cooperation .media .media_images {
+    text-align: center;
+  }
+  .cooperation .media .media_images .media_content_image {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  .cooperation .media .media_images .wealthparklab {
+    width: 20rem;
+  }
+  .cooperation .media .media_images .u-29 {
+    width: 10rem;
+  }
+  .cooperation .collaboration {
+    text-align: center;
+  }
+  .cooperation .collaboration .media_content_image {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  .cooperation .collaboration .dalton {
+    width: 18rem;
+    margin-right: 1rem;
+  }
+  .cooperation .collaboration .gakucelerator {
+    width: 4rem;
+    margin-right: 2rem;
+  }
+  .cooperation .collaboration .showagakuin {
+    width: 3rem;
+  }
+  .plan {
+    text-align: center;
+    margin-bottom: 20vw;
+  }
+  .plan .plan_title {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    margin-bottom: 6vw;
+  }
+  .plan .plan_wrapper {
+    text-align: left;
+    position: relative;
+  }
+  .plan .plan_background {
+    position: absolute;
+    top: 0rem;
+    left: 13%;
+    width: 74%;
+  }
+  .plan .plan_target {
+    position: relative;
+    padding-top: 5vw;
+    padding-left: 20vw;
+  }
+  .plan .plan_target .target {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 10vw;
+  }
+  .plan .plan_target .jhigh {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: 1.7vw;
+    color: #ce131c;
+  }
+  .plan .plan_target .elemen {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: #717171;
+  }
+  .plan .plan_time {
+    position: relative;
+    padding-top: 5vw;
+    padding-left: 20vw;
+  }
+  .plan .plan_time .time {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 12vw;
+    margin-right: 10vw;
+  }
+  .plan .plan_time .time_list {
+    display: inline-block;
+    margin-top: 7vw;
+    margin-bottom: 0vw;
+  }
+  .plan .plan_time .time_list .classweek {
+    display: block;
+    text-align: center;
+    margin-bottom: 4vw;
+    border-collapse: collapse;
+  }
+  .plan .plan_time .time_list .classweek th {
+    text-align: center;
+    border: solid 1px #bbbbbb;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.6rem;
+  }
+  .plan .plan_time .time_list .classweek td {
+    border: solid 1px #bbbbbb;
+    color: #ce131c;
+    font-size: 2.2rem;
+    font-weight: 800;
+    padding-bottom: 0rem;
+  }
+  .plan .plan_time .time_list .classweek td:first-child,
+  .plan .plan_time .time_list .classweek th:first-child {
+    border-left: none;
+  }
+  .plan .plan_time .time_list .classweek tr:first-child td,
+  .plan .plan_time .time_list .classweek tr:first-child th {
+    border-top: none;
+  }
+  .plan .plan_time .time_list .classweek td:last-child,
+  .plan .plan_time .time_list .classweek th:last-child {
+    border-right: none;
+  }
+  .plan .plan_time .time_list .classweek tr:last-child td,
+  .plan .plan_time .time_list .classweek tr:last-child th {
+    border-bottom: none;
+  }
+  .plan .plan_time .time_list .classtime {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 0.8vw;
+  }
+  .plan .plan_time .time_list .description {
+    font-size: 0.6rem;
+    color: #717171;
+  }
+  .plan .plan_time .price {
+    color: #ce131c;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-left: 2vw;
+  }
+  .plan .plan_time .price em {
+    font-style: unset;
+    font-size: 2.2rem;
+  }
+  footer {
+    position: relative;
+    height: 77.6vw;
+    overflow: hidden;
+  }
+  footer .footer_background {
+    position: absolute;
+    top: 0vw;
+    left: -22vw;
+    width: 145%;
+  }
+  footer .footer_logo {
+    position: absolute;
+    top: 18.7vw;
+    left: -1.8vw;
+    height: 36vw;
+  }
+  footer .fotter_copy {
+    position: absolute;
+    top: 53vw;
+    left: 7.4vw;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    font-weight: 800;
+    color: #ce131c;
+  }
+  footer .footer_company {
+    position: absolute;
+    top: 69.2vw;
+    left: 7.8vw;
+    font-size: 0.4rem;
+  }
+  footer .share {
+    position: absolute;
+    top: 55vw;
+    left: 62vw;
+    font-size: 1.2rem;
+  }
+  footer .snsbtniti {
+    position: absolute;
+    width: 15rem;
+    top: 60vw;
+    left: 60vw;
+  }
+  .pc_sticker {
+    position: fixed;
+    top: 9vw;
+    right: -2.5vw;
+    width: 19.4vw;
+  }
+  .sticker_text {
+    position: fixed;
+    top: 13.4vw;
+    right: 4vw;
+    font-size: 1.7vw;
+    font-weight: 700;
+    color: #ffffff;
+  }
+}/*# sourceMappingURL=style.css.map */

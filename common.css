@@ -1,0 +1,51 @@
+.dots-2 .slick-dots {
+  text-align: center;
+}
+.dots-2 .slick-dots li {
+  display: inline-block;
+}
+.dots-2 .slick-dots button {
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 6px;
+  font-size: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background: #bcbcbc;
+  border-radius: 50%;
+}
+.dots-2 .slick-dots .slick-active button {
+  background:#c90000;
+}
+
+.dots-3 .slick-dots {
+  text-align: center;
+}
+.dots-3 .slick-dots li {
+  display: inline-block;
+}
+.dots-3 .slick-dots button {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 6px;
+  font-size: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background: #bcbcbc;
+  border-radius: 50%;
+}
+.dots-3 .slick-dots .slick-active button {
+  background:#c90000;
+}
+.dot_box{
+  position: relative;
+  margin-top: -10vw;
+  margin-left: -74vw;
+  margin-bottom: 25vw;
+}

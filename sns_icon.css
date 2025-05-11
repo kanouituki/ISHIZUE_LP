@@ -1,0 +1,82 @@
+
+/* ボタン全体 */
+.flowbtn8{
+border-radius:50%;
+position:relative;
+display:inline-block;
+width:3rem;
+height:3rem;
+font-size:1.8rem;
+text-decoration:none;
+transition:.5s;
+}
+/* ボタンマウスホバー時のテキスト指定 */
+.flowbtn8:hover{
+color:#fff!important;
+}
+/* アイコンをど真ん中に */
+.flowbtn8 i{
+position:absolute;
+top:50%;
+left:50%;
+-ms-transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%);
+}
+/* Twitter */
+.flowbtn8.fl_tw2{
+border:solid 1px #55acee;
+color:#55acee;
+}
+/* Twitterマウスホバー時 */
+.flowbtn8.fl_tw2:hover{
+border:solid 1px #55acee;
+background:#55acee;
+}
+/* Instagram */
+.flowbtn8.insta_btn2 {
+border:solid 1px #c6529a;
+color:#c6529a;
+font-size:2.1rem;
+}
+/* Instagramマウスホバー時 */
+.flowbtn8.insta_btn2:hover{
+border:solid 1px #c6529a;
+background:#c6529a;
+}
+/* Facebook */
+.flowbtn8.fl_fb2{
+border:solid 1px #3b5998;
+color:#3b5998;
+}
+/* Facebookマウスホバー時 */
+.flowbtn8.fl_fb2:hover{
+border:solid 1px #3b5998;
+background:#3b5998;
+}
+/* LINE */
+.flowbtn8.fl_li2{
+border:solid 1px #00c300;
+color:#00c300;
+font-size:2.1rem;
+}
+/* LINEマウスホバー時 */
+.flowbtn8.fl_li2:hover{
+border:solid 1px #00c300;
+background:#00c300;
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti{
+padding:0!important;
+}
+/* ボタン全体の位置 */
+.snsbtniti{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-around;
+}
+/* ボタン同士の余白 */
+.snsbtniti li{
+flex:0 0 33%;
+text-align:center!important;
+}
